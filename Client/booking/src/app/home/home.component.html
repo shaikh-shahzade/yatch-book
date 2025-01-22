@@ -1,25 +1,34 @@
-<div class="home">
+<div class="container home"></div>
     <h1>Welcome to our Yacht Booking App!</h1>
     <p>Explore our luxurious yachts and book your dream vacation today.</p>
     
     <h2>Featured Yachts</h2>
-    <div class="yacht-list">
-        <div class="yacht">
-            <img src="yacht1.jpg" alt="Yacht 1">
+    <div class="row yacht-list">
+        <div class="col-md-4 yacht">
+            <img src="yacht1.jpg" alt="Yacht 1" class="img-fluid">
             <h3>Yacht 1</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="yacht">
-            <img src="yacht2.jpg" alt="Yacht 2">
+        <div class="col-md-4 yacht">
+            <img src="yacht2.jpg" alt="Yacht 2" class="img-fluid">
             <h3>Yacht 2</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="yacht">
-            <img src="yacht3.jpg" alt="Yacht 3">
+        <div class="col-md-4 yacht">
+            <img src="yacht3.jpg" alt="Yacht 3" class="img-fluid">
             <h3>Yacht 3</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
     </div>
+
     
+
+<div>
+<button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn">Base class</button>
     <button class="btn">Book Now</button>
+</div>
+<div class="d-flex justify-content-end mt-3">
+    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+    <button type="button" class="btn btn-outline-success">Register</button>
 </div>
